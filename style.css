@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav1-an{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-an img{
+    border-radius: 10px;
+    height: 60px;
+}
+.ul1-an{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    transition: .2s ease-in-out;  
+}
+ul a:hover{
+    color: orangered;
+}
+.ul2-an{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px ;
+}
+.icons-an img{
+    height: 70px;
+}
+.slider-an{
+    background-image: url(./slider.png);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.slider-an img{
+    height: 240px;
+    display: flex;
+    margin-left: 150px;
+    padding-top: 100px;  
+}
+.slider-an p{
+    margin-left: 148px;
+    margin-top: 5px;
+    width: 18%;
+}
+.slider-an button{
+    background-color: #191919;
+    color: #fcfcfc;
+    margin-top: 30px;
+    margin-left: 148px;
+    width: 7%;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.body{
+    background-color: #f7f7f7;
+}
+.body-an{
+    margin-top: 85px;
+    
+}
+.body-an h1{
+    margin-left: 500px;
+}
+.p-an{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0 400px;
+    font-weight: 400;
+}
+.white{
+    width: 91%;
+    background-color: #ffffff;
+    height: 650px;
+    margin: auto;
+    margin-top: 20px;
+}
+.red13{
+    margin: auto;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+.red{
+    background-image: url(./red13c.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 49.5%;
+}
+.txt{
+    width: 48%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.txt h2{
+    margin-bottom: 8px;
+}
+.txt h5{
+    margin-bottom: 15px;
+}
+.txt button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+}
+.red13b{
+    margin: auto;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.redb{
+    display: flex;
+    width: 49.5%;
+}
+.redimg{
+    background-image: url(./purple.png);
+}
+.redtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
